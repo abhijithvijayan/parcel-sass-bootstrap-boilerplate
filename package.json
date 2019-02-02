@@ -1,0 +1,30 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Parcel Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html --open -p 4040",
+    "build": "parcel build src/*.html --public-url ./",
+    "watch": "parcel watch src/*.html --public-url ./"
+  },
+  "author": "abhijithvijayan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
+    "cssnano": "^4.1.8",
+    "node-sass": "^4.11.0",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "postcss-modules": "^1.4.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}
