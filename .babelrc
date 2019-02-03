@@ -4,7 +4,7 @@
             "@babel/preset-env",
             {
                 "targets": {
-                    "chrome": "72",
+                    "chrome": "55",
                     "firefox": "52",
                     "opera": "42"
                 }

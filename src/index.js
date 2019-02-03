@@ -5,6 +5,12 @@ import $ from "jquery";
 import imageURL from './assets/trollHuntersArcadia.png';
 
 
-$(function () {
+// bootstrap tooltips
+$(() => {
     $('[data-toggle="tooltip"]').tooltip({ trigger: "hover" })
+});
+
+// JQuery
+$(document).ready(() => {
+    console.log('hello');
 });

@@ -44,12 +44,9 @@ It contains the following features:
 
 ### Dependencies
 
-Make sure these are installed first.
+Make sure Node is installed first.
 
 - [Node.js](http://nodejs.org)
-- [Parcel Bundler](https://parceljs.org/)
-
-     `npm install -g parcel-bundler`
 
 ### Quick Start
 
