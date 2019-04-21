@@ -1,45 +1,57 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    min-height: 100%;
-    overflow-x: hidden;
-    line-height: 1.3;
-    width: 100%;  
-    color: $color-white;
-    background: $color-black;
-    font-family: $font-family-montserrat;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  line-height: 1.3;
+  width: 100%;
+  color: $white;
+  background: $black;
+  font-family: $montserrat;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
 a {
-    &:hover {
-        text-decoration: none;
-    }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
-h1, h2, h3, h4, h5 {
-    font-weight: $font-weight-semibold;
-    margin: 0px 0px 10px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  font-weight: $semibold;
+  margin: 0px 0px 10px;
 }
 
-.btn:focus, .btn:active, button:focus {
-    outline: none !important;
-    box-shadow: none !important;
+.btn:focus,
+.btn:active,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 p {
-    margin: 0px 0px 15px;
+  margin: 0px 0px 15px;
 }
