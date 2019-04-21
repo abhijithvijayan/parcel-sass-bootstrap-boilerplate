@@ -11,22 +11,22 @@
   "author": "abhijithvijayan",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/plugin-transform-runtime": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
-    "autoprefixer": "^9.4.8",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "autoprefixer": "^9.5.1",
     "babel-loader": "^8.0.5",
     "cssnano": "^4.1.10",
     "node-sass": "^4.11.0",
-    "parcel-bundler": "^1.11.0",
+    "parcel-bundler": "^1.12.3",
     "parcel-plugin-clean-dist": "0.0.6",
     "postcss-modules": "^1.4.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.1",
+    "@babel/runtime": "^7.4.3",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7"
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0"
   },
   "repository": {
     "type": "git",
